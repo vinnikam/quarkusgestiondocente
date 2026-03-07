@@ -1,0 +1,24 @@
+2026-03-06 22:19:58,530 INFO  [org.hib.orm.jpa] (main) HHH008540: Processing PersistenceUnitInfo [name: <default>]
+2026-03-06 22:19:58,716 INFO  [org.hib.orm.core] (main) HHH000001: Hibernate ORM core version 7.2.6.Final
+2026-03-06 22:19:59,007 INFO  [org.hib.orm.con.pooling] (main) HHH10001005: Database info:
+	Database JDBC URL [undefined/unknown]
+	Database driver: undefined/unknown
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: unknown/unknown
+	Autocommit mode: undefined/unknown
+	Isolation level: <unknown>
+	JDBC fetch size: undefined/unknown
+	Pool: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-06 22:19:59,170 INFO  [org.hib.val.int.uti.Version] (main) HV000001: Hibernate Validator 9.1.0.Final
+2026-03-06 22:19:59,585 WARN  [io.qua.config] (main) Unrecognized configuration key "quarkus.http.cors" was provided; it will be ignored; verify that the dependency extension for this configuration is set or that you did not make a typo
+2026-03-06 22:19:59,587 WARN  [io.qua.config] (main) Unrecognized configuration key "quarkus.log.console.dark-launch" was provided; it will be ignored; verify that the dependency extension for this configuration is set or that you did not make a typo
+2026-03-06 22:19:59,587 WARN  [io.qua.config] (main) Unrecognized configuration key "quarkus.swagger-ui.version" was provided; it will be ignored; verify that the dependency extension for this configuration is set or that you did not make a typo
+2026-03-06 22:19:59,588 WARN  [io.qua.config] (main) Unrecognized configuration key "quarkus.swagger-ui.contact-name" was provided; it will be ignored; verify that the dependency extension for this configuration is set or that you did not make a typo
+2026-03-06 22:19:59,588 WARN  [io.qua.config] (main) Unrecognized configuration key "quarkus.swagger-ui.description" was provided; it will be ignored; verify that the dependency extension for this configuration is set or that you did not make a typo
+{"timestamp":"2026-03-06T22:20:01.1743516-05:00","sequence":1383,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus","level":"INFO","message":"Gestion de Docentes 1.0-SNAPSHOT on JVM (powered by Quarkus 3.32.2) started in 8.803s. Listening on: http://localhost:8081","threadName":"main","threadId":3,"mdc":{},"ndc":"","hostName":"desktop-6qjp5fn","processName":"C:\\Users\\user\\.jdks\\openjdk-25.0.2\\bin\\java.exe","processId":20836}
+{"timestamp":"2026-03-06T22:20:01.1783496-05:00","sequence":1384,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus","level":"INFO","message":"Profile test activated. ","threadName":"main","threadId":3,"mdc":{},"ndc":"","hostName":"desktop-6qjp5fn","processName":"C:\\Users\\user\\.jdks\\openjdk-25.0.2\\bin\\java.exe","processId":20836}
+{"timestamp":"2026-03-06T22:20:01.1783496-05:00","sequence":1385,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus","level":"INFO","message":"Installed features: [agroal, cdi, compose, config-yaml, hibernate-orm, hibernate-orm-panache, hibernate-orm-rest-data-panache, hibernate-validator, jdbc-h2, narayana-jta, rest, rest-jackson, rest-links, smallrye-context-propagation, smallrye-openapi, swagger-ui, vertx]","threadName":"main","threadId":3,"mdc":{},"ndc":"","hostName":"desktop-6qjp5fn","processName":"C:\\Users\\user\\.jdks\\openjdk-25.0.2\\bin\\java.exe","processId":20836}
+{"timestamp":"2026-03-06T22:20:02.5703529-05:00","sequence":1386,"loggerClassName":"org.jboss.logging.Logger","loggerName":"io.quarkus","level":"INFO","message":"Gestion de Docentes stopped in 0.051s","threadName":"main","threadId":3,"mdc":{},"ndc":"","hostName":"desktop-6qjp5fn","processName":"C:\\Users\\user\\.jdks\\openjdk-25.0.2\\bin\\java.exe","processId":20836}
