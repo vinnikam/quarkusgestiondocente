@@ -14,14 +14,14 @@ quarkus:
     cors-headers: Content-Type,Authorization,X-Requested-With
 
 
-  # Base de datos
+    # Base de datos
   datasource:
-    db-kind: h2
+    db-kind: postgresql
     username: admin
-    password: 12345
+    password: 123456
     jdbc:
-      #url: "jdbc:h2:mem:gdocente"
-      file: ./data/gdocentes_db
+      url: jdbc:postgresql://172.28.125.54:5432/estudiantes
+
 
   # Hibernate-hibernate-orm:
   hibernate-orm:
@@ -42,7 +42,7 @@ quarkus:
 
     file:
       enabled: true
-      path: logs/gestudiantes.log
+      path: logs/gdocentes.log
       format: "%d{yyyy-MM-dd HH:mm:ss,SSS} %-5p [%c{3.}] (%t) %s%e%n"
       rotation:
         max-file-size: 5M # Tamaño máximo

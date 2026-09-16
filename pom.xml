@@ -41,7 +41,7 @@
         </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>
-            <artifactId>quarkus-jdbc-h2</artifactId>
+            <artifactId>quarkus-jdbc-postgresql</artifactId>
         </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>
@@ -88,6 +88,7 @@
             <version>1.18.42</version>
             <scope>provided</scope>
         </dependency>
+
     </dependencies>
 
     <build>
